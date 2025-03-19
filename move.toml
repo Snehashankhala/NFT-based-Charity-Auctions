@@ -1,0 +1,15 @@
+[package]
+name = "doller"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x9d8a713f417a6628a89163f9536249b8ac8a1c4831fcb32adbb4b04e818fc0ce"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
